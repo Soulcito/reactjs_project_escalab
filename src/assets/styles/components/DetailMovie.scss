@@ -1,0 +1,46 @@
+
+h1 {
+  text-align: left;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#overview {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#vote {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.points {
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 0.2px solid chartreuse;
+  padding: 15px;
+  background-color: chartreuse;
+}

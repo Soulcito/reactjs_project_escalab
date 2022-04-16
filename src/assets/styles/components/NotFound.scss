@@ -1,0 +1,27 @@
+h1,h2 {
+   display: block;
+   text-align: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+#myH1 {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.myContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#marciano {
+  width: 250px;
+  height: 400px;    
+  opacity: 0.5;
+}

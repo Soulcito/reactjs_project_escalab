@@ -3,17 +3,36 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.1",
+    "@mui/material": "^5.6.1",
+    "@mui/styled-engine-sc": "^5.6.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "formik": "^2.2.9",
+    "node-sass": "^7.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-error-boundary": "^3.1.4",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "remove": "^0.1.5",
+    "styled-components": "^5.3.5",
+    "sweetalert2": "^11.4.8",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "dev-server": "webpack serve",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +53,26 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.17",
+    "@babel/preset-env": "7.12.17",
+    "@babel/preset-react": "7.12.13",
+    "@svgr/webpack": "5.5.0",
+    "babel-loader": "8.2.2",
+    "copy-webpack-plugin": "^7.0.0",
+    "core-js": "3.9.0",
+    "css-loader": "5.0.2",
+    "file-loader": "6.2.0",
+    "image-webpack-loader": "7.0.1",
+    "redux-devtools-extension": "2.13.8",
+    "redux-logger": "3.0.6",
+    "regenerator-runtime": "0.13.7",
+    "sass-loader": "^12.6.0",
+    "style-loader": "2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "5.23.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
   }
 }
