@@ -2,6 +2,8 @@
 
 Este proyecto utiliza la API The movie DB (https://www.themoviedb.org).
 
+Puedes ver un demo por aqui (https://reactjs-escalab-project.vercel.app/).
+
 Esta compuesto por un formulario, en donde captura los inputs para la utilizacion del API, en donde se busca una película.
 Luego de la busqueda se muestra una interfaz con todas las películas que mostraron coincidencia, y por cada una se puede ver un detalle más específico en otra interfaz.
 
